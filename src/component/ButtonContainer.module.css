@@ -1,0 +1,19 @@
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  border-radius: 10px;
+  border: 0cap;
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* .button:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
+.button:active{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
